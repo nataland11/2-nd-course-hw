@@ -8,7 +8,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: Montserrat;
     padding-left: 120px;
     padding-right: 120px;
 }
@@ -43,6 +42,7 @@
 .top_button {
     width: 234px;
     height: 48px;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     background: #9C0332;
     box-sizing: border-box;
@@ -51,7 +51,7 @@
 }
 .top_button::placeholder {
     color: #FFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
