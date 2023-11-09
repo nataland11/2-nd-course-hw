@@ -60,6 +60,10 @@
     padding-right: 120px;
     padding-top: 128px;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
 }
 .menu_link {
     display: block;
