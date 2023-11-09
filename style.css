@@ -61,12 +61,31 @@
     padding-top: 128px;
     padding-bottom: 128px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.menu_link {
+.menu_link1 {
+    background-image: url(img/game1_back.jpg);
+    display: block;
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+}
+.menu_link2 {
+    background-image: url(img/game2_back.jpg);
+    display: block;
+    width: 379px;
+    height: 300px;
+    border-radius: 16px;
+}
+.menu_link3 {
+    background-image: url(img/game3_back.jpg);
     display: block;
     width: 379px;
     height: 300px;
