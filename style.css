@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
 }
+.header {
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
 .top {
     height: 1024px;
     background-image: url(img/topback.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-left: 120px;
-    padding-right: 120px;
+    
 }
 .top_title {
     color: #FFF;
@@ -48,4 +52,11 @@
     box-sizing: border-box;
     border: 1px solid #9C0332;
     outline: none;
+}
+.menu {
+    height: 556px;
+    background-image: url(img/bottom_back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
