@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-left: 120px;
 }
 .top_title {
     color: #FFF;
@@ -15,8 +16,8 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    max-width: 789px;
-    margin-top: 217px;
+    max-width: 600px;
+    padding-top: 217px;
     margin-bottom: 32px;
 }
 .top_content {
@@ -25,6 +26,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
+    max-width: 400px;
+    margin-bottom: 44px;
 }
 .top_link {
     font-size: 18px;
