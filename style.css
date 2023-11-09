@@ -8,4 +8,19 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    &_title {
+        color: #FFF;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_content {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+    }
 }
+
