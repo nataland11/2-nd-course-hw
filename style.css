@@ -33,6 +33,26 @@
     font-size: 18px;
     font-weight: 700;
     color: #FFF;
-    decoration: none;
+    text-decoration: none;
+}
+.top_link:hover {
+    text-decoration: underline;
+}
+.top_button {
+    width: 234px;
+    height: 48px;
+    border-radius: 30px;
+    background: #9C0332;
+    box-sizing: border-box;
+    border: 1px solid #9C0332;
+    outline: none;
+}
+.top_button::placeholder {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
