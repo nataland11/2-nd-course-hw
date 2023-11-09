@@ -56,4 +56,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 128px;
+    font-family: 'Montserrat', sans-serif;
 }
