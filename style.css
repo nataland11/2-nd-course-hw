@@ -15,6 +15,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 789px;
+    margin-top: 217px;
+    margin-bottom: 32px;
 }
 .top_content {
     color: #FFF;
