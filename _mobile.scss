@@ -1,5 +1,9 @@
 @media (max-width: 767px) {
     .top {
+        background-image: url(img/topback_mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
         flex-direction: column;
         justify-content: center;
         padding-left: 16px;
