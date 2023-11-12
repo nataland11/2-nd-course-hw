@@ -64,6 +64,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    row-gap: 32px;
 }
 .menu_link1 {
     background-image: url(img/game1_back.jpg);
@@ -73,7 +74,6 @@
     border: 1px solid #000;
     width: 379px;
     height: 300px;
-    padding-right: 32px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -116,7 +116,6 @@
     border: 1px solid #000;
     width: 379px;
     height: 300px;
-    padding-left: 32px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-style: normal;
