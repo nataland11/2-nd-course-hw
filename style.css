@@ -68,7 +68,6 @@
   align-items: center;
   row-gap: 32px;
 }
-
 .menu_link1 {
   background-image: url(img/game1_back.jpg);
   background-repeat: no-repeat;
@@ -90,7 +89,6 @@
   outline: none;
   text-decoration: none;
 }
-
 .menu_link2 {
   background-image: url(img/game2_back.jpg);
   background-repeat: no-repeat;
@@ -112,7 +110,6 @@
   outline: none;
   text-decoration: none;
 }
-
 .menu_link3 {
   background-image: url(img/game3_back.jpg);
   background-repeat: no-repeat;

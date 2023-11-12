@@ -65,67 +65,67 @@
     justify-content: space-between;
     align-items: center;
     row-gap: 32px;
-}
-.menu_link1 {
-    background-image: url(img/game1_back.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    box-sizing: border-box;
-    border: 1px solid #000;
-    width: 379px;
-    height: 300px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px; 
-    color: #FFF;
-    padding-left: 32px;
-    padding-bottom: 32px;
-    padding-top: 236px;
-    border-radius: 16px;
-    outline: none;
-    text-decoration: none;
-}
-.menu_link2 {
-    background-image: url(img/game2_back.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    box-sizing: border-box;
-    border: 1px solid #000;
-    width: 379px;
-    height: 300px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px; 
-    color: #FFF;
-    padding-left: 32px;
-    padding-bottom: 32px;
-    padding-top: 236px;
-    border-radius: 16px;
-    outline: none;
-    text-decoration: none;
-}
-.menu_link3 {
-    background-image: url(img/game3_back.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    box-sizing: border-box;
-    border: 1px solid #000;
-    width: 379px;
-    height: 300px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px; 
-    color: #FFF;
-    padding-left: 32px;
-    padding-bottom: 32px;
-    padding-top: 236px;
-    border-radius: 16px;
-    outline: none;
-    text-decoration: none;
+    &_link1 {
+        background-image: url(img/game1_back.jpg);
+        background-repeat: no-repeat;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        width: 379px;
+        height: 300px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; 
+        color: #FFF;
+        padding-left: 32px;
+        padding-bottom: 32px;
+        padding-top: 236px;
+        border-radius: 16px;
+        outline: none;
+        text-decoration: none;
+    }
+    &_link2 {
+        background-image: url(img/game2_back.jpg);
+        background-repeat: no-repeat;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        width: 379px;
+        height: 300px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; 
+        color: #FFF;
+        padding-left: 32px;
+        padding-bottom: 32px;
+        padding-top: 236px;
+        border-radius: 16px;
+        outline: none;
+        text-decoration: none;
+    }
+    &_link3 {
+        background-image: url(img/game3_back.jpg);
+        background-repeat: no-repeat;
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        width: 379px;
+        height: 300px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; 
+        color: #FFF;
+        padding-left: 32px;
+        padding-bottom: 32px;
+        padding-top: 236px;
+        border-radius: 16px;
+        outline: none;
+        text-decoration: none;
+    }
 }
