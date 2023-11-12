@@ -148,12 +148,17 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 238px;
+    padding-bottom: 32px;
   }
   .top_content {
+    width: 300px;
+    height: 66px;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 22px;
+    padding-bottom: 32px;
   }
   .top_link {
     font-size: 14px;
