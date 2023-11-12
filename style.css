@@ -45,6 +45,7 @@
   width: 234px;
   height: 48px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   border-radius: 30px;
   background: #9C0332;
   box-sizing: border-box;
@@ -130,4 +131,26 @@
   border-radius: 16px;
   outline: none;
   text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .top {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+  }
+  .top_title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .top_content {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
 }/*# sourceMappingURL=style.css.map */

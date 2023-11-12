@@ -1,3 +1,21 @@
 @media (max-width: 767px) {
-    
+    .top {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+        &_title {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_content {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+        }
+    }
 }
