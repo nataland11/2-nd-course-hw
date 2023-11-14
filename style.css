@@ -75,9 +75,9 @@
   background-image: url(img/game1_back.jpg);
   background-repeat: no-repeat;
   display: block;
+  background-size: cover;
   box-sizing: border-box;
-  border: 1px solid #000;
-  width: 379px;
+  min-width: 379px;
   height: 300px;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -95,10 +95,10 @@
 .menu_link2 {
   background-image: url(img/game2_back.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   display: block;
   box-sizing: border-box;
-  border: 1px solid #000;
-  width: 379px;
+  min-width: 379px;
   height: 300px;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -118,8 +118,8 @@
   background-repeat: no-repeat;
   display: block;
   box-sizing: border-box;
-  border: 1px solid #000;
-  width: 379px;
+  background-size: cover;
+  min-width: 379px;
   height: 300px;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
