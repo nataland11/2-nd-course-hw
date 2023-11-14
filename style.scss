@@ -53,14 +53,16 @@
         outline: none;
     }
 }
+.center {
+    padding-left: calc(50%-600px);
+    padding-right: calc(50%-600px);
+}
 .menu {
     height: 556px;
     background-image: url(img/bottom_back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-top: 128px;
     padding-bottom: 128px;
     display: flex;
@@ -74,7 +76,7 @@
         display: block;
         background-size: cover;
         box-sizing: border-box;
-        min-width: 379px;
+        width: 379px;
         height: 300px;
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
@@ -95,7 +97,7 @@
         background-size: cover;
         display: block;
         box-sizing: border-box;
-        min-width: 379px;
+        width: 379px;
         height: 300px;
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
@@ -116,7 +118,7 @@
         display: block;
         box-sizing: border-box;
         background-size: cover;
-        min-width: 379px;
+        width: 379px;
         height: 300px;
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
