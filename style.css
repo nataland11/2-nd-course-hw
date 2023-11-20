@@ -3,17 +3,14 @@
   padding: 0;
 }
 
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
-
 .top {
   height: 1024px;
   background-image: url(img/topback.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-left: 120px;
+  padding-right: 120px;
   font-family: "Montserrat", sans-serif;
 }
 .top_title {
