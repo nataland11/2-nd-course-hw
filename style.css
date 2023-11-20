@@ -56,7 +56,7 @@
 }
 
 .menu {
-  height: 556px;
+  height: auto;
   background-image: url(img/bottom_back.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -156,6 +156,8 @@
     padding-bottom: 32px;
   }
   .top_content {
+    display: flex;
+    justify-content: center;
     width: 300px;
     height: 66px;
     font-size: 14px;
@@ -172,5 +174,18 @@
   }
 }
 .menu {
-  background: #000915;
+  background-image: url(img/topback_mobile_menu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+.menu_link1 {
+  width: 343px;
+}
+.menu_link2 {
+  width: 342px;
+}
+.menu_link3 {
+  width: 343px;
 }/*# sourceMappingURL=style.css.map */
