@@ -153,13 +153,15 @@
         padding-top: 282px;
     }
     &_instruction {
+        display: block;
+        width: 582px;
         color: #FFF;
         font-size: 18px;
         font-style: normal;
         font-weight: 300;
         line-height: 32px;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 }
 
