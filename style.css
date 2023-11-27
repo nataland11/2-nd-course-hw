@@ -234,4 +234,24 @@
 }
 .menu_link3 {
   width: 343px;
+}
+
+.seasons {
+  justify-content: center;
+  padding-top: 51px;
+  padding-bottom: 85px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+.seasons_title {
+  font-size: 32px;
+}
+.seasons_instruction {
+  font-size: 14px;
+  line-height: 22px;
+  width: 300px;
+}
+.seasons_img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
