@@ -148,8 +148,15 @@
   font-family: "Montserrat", sans-serif;
   background-color: #000915;
   max-height: 800px;
-  padding-bottom: 282px;
   padding-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 233px;
+  padding-bottom: 233px;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+  row-gap: 64px;
 }
 .seasons_title {
   color: #FFF;
@@ -157,7 +164,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 282px;
 }
 .seasons_instruction {
   display: block;
