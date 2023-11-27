@@ -112,6 +112,9 @@
         outline: none;
         text-decoration: none;
     }
+    &_link2:hover {
+        text-decoration: underline;
+    }
     &_link3 {
         background-image: url(img/game3_back.jpg);
         background-repeat: no-repeat;
@@ -132,6 +135,9 @@
         border-radius: 16px;
         outline: none;
         text-decoration: none;
+    }
+    &_link3:hover {
+        text-decoration: underline;
     }
 }
 

@@ -116,6 +116,9 @@
   outline: none;
   text-decoration: none;
 }
+.menu_link2:hover {
+  text-decoration: underline;
+}
 .menu_link3 {
   background-image: url(img/game3_back.jpg);
   background-repeat: no-repeat;
@@ -136,6 +139,9 @@
   border-radius: 16px;
   outline: none;
   text-decoration: none;
+}
+.menu_link3:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
