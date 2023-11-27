@@ -144,6 +144,29 @@
   text-decoration: underline;
 }
 
+.seasons {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000915;
+  max-height: 800px;
+}
+.seasons_title {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 282px;
+}
+.seasons_instruction {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 @media (max-width: 767px) {
   .top {
     background-image: url(img/topback_mobile.jpg);
