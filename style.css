@@ -92,6 +92,9 @@
   outline: none;
   text-decoration: none;
 }
+.menu_link1:hover {
+  text-decoration: underline;
+}
 .menu_link2 {
   background-image: url(img/game2_back.jpg);
   background-repeat: no-repeat;
