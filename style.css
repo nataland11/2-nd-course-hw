@@ -170,6 +170,10 @@
   margin-top: 32px;
   margin-bottom: 32px;
 }
+.seasons_img {
+  width: 485px;
+  height: 333px;
+}
 
 @media (max-width: 767px) {
   .top {
