@@ -175,5 +175,53 @@
         height: 333px;
     }
 }
+.remember {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000915;
+    max-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 239px;
+    padding-bottom: 239px;
+    column-gap: 135px;
+    row-gap: 64px;
+    &_title {
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &_instruction {
+        display: block;
+        width: 560px;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    &_button {
+        width: 240px;
+        height: 48px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFF;
+        border-radius: 30px;
+        background: #9C0332;
+        box-sizing: border-box;
+        border: 1px solid #9C0332;
+        outline: none;  
+    }
+    &_img {
+        width: 481px;
+        height: 322px;
+    }
+}
 
 @import 'mobile';
