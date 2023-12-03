@@ -12,4 +12,4 @@ function getSeason(month) {
     }
 }
 
-alert(getSeason(prompt('Введите порядковый номер месяца')));
+alert(getSeason(prompt("Введите порядковый номер месяца")));
