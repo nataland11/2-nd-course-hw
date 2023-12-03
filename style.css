@@ -302,8 +302,7 @@
     padding-bottom: 32px;
   }
   .top_content {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     width: 300px;
     height: 66px;
     font-size: 14px;
@@ -372,5 +371,18 @@
   }
   .remember_img {
     width: 100%;
+  }
+  .footer {
+    background-image: url(img/mobile\ footer_back.jpg);
+    padding-top: 51px;
+  }
+  .footer_title {
+    font-size: 32px;
+  }
+  .footer_instruction {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 285px;
+    display: inline-block;
   }
 }/*# sourceMappingURL=style.css.map */
