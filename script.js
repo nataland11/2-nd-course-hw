@@ -11,5 +11,3 @@ function getSeason(month) {
         return "В году 12 месяцев";
     }
 }
-
-alert(getSeason(prompt("Введите порядковый номер месяца")));
