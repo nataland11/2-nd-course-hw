@@ -22,7 +22,7 @@
         </section>
     </header>
     <div  class="menu">
-        <a class="menu_link1" href="#">Игра 1</a>
+        <a class="menu_link1" href="#" onclick="alert(getSeason(prompt('Введите порядковый номер месяца')))">Игра 1</a>
         <a class="menu_link2" href="#">Игра 2</a>
         <a class="menu_link3" href="#">Игра 3</a>
     </div>
@@ -46,5 +46,16 @@
             </form>
         </div>
     </div>
+    <footer class="footer center">
+        <h2 class="footer_title">Игра в загадки</h2>
+        <span class="footer_instruction">Компьютер загадывает загадку, вам необходимо её угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</span>
+        <form action="#">
+            <button class="top_button" type="submit">Играть!</button>
+        </form>
+    </footer>
+    <div class="bottom center">
+        <span>Все права защищены</span>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
