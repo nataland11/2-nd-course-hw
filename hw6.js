@@ -89,3 +89,4 @@ let array = [-1, 0, 5, -10, 56, -25, 25, 0, -1000, -2];
 let res = array.filter(elem => elem < 0);
   
 console. log(res);
+
