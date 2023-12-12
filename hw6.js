@@ -5,13 +5,22 @@ for (let i = 0; i < numbs.length; i++) {
     console.log(numbs[i]);
 }
 
+//Задание 1. Другой способ
+const arr = [1, 5, 4, 10, 0, 3];
+for (let value of arr) {
+    console. log(value);
+    if (value === 10) {
+        break;
+    }
+}
+
 //Задание 2
 const numbs = [1, 5, 4, 10, 0, 3];
 numbs.forEach((el, index) => {
     console.log(`${index}: ${el}`);
 });
 
-//Другой способ
+//Задание 2. Другой способ
 const numbs = [1, 5, 4, 10, 0, 3];
 console.log(numbs.indexOf(4));
 
@@ -22,14 +31,14 @@ console.log(numbs);
 
 //Задание 4
 let arr = [];
-
 for (let i = 0; i < 3; i++) {
-	arr[i] = [];
-	
+    let innerArr = [];
 	for (let j = 0; j < 3; j++) {
-		arr[i].push(j + 1);
+		innerArr.push(1);
 	}
+    arr.push(innerArr);
 }
+console.log(arr);
 
 //Задание 5
 let numbs = [1, 1, 1];
