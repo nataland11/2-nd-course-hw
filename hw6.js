@@ -1,7 +1,7 @@
 //Задание 1
 const numbs = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < numbs.length; i++) {
-    if (numbs[i] == 10) break;
+    if (numbs[i] == 0) break;
     console.log(numbs[i]);
 }
 
@@ -71,9 +71,12 @@ let arrayNeworder = arrayBackwards.join('');
 console.log(arrayNeworder);
 
 //Задание 9
-let arr = [[1, 2, 3],[4, 5, 6]];
-arr = arr.join();
-console.log(arr);
+const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+];
+const flatArr = arr.flat();
+console.log(flatArr);
 
 //Задание 10
 const arr = [1, 3, 5, 7, 9];
