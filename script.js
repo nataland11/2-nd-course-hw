@@ -12,19 +12,21 @@ function getSeason(month) {
     }
 }
 
-let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
-fruits = fruits.sort(() => Math.random() - 0.5);
-alert(fruits);
+function game2() {
+    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruits = fruits.sort(() => Math.random() - 0.5);
+    alert(fruits);
 
-let firstGuess = prompt("Чему равнялся первый элемент массива?");
-let lastGuess = prompt("Чему равнялся последний элемент массива?");
+    let firstGuess = prompt("Напишите первое слово");
+    let lastGuess = prompt("Напишите последнее слово");
 
-if (firstGuess === fruits[0] && lastGuess === fruits[fruits.length - 1]) {
-    alert("Поздравляем! Вы угадали оба слова.");
-}
-else if (firstGuess === fruits[0] || lastGuess === fruits[fruits.length - 1]) {
-    alert("Вы были близки к победе!");
-}
-else {
-    alert("Вы не угадали ни одного слова.");
+    if (firstGuess === fruits[0] && lastGuess === fruits[fruits.length - 1]) {
+        alert("Поздравляем! Вы угадали оба слова.");
+    }
+    else if (firstGuess === fruits[0] || lastGuess === fruits[fruits.length - 1]) {
+        alert("Вы угадали одно слово.");
+    }
+    else {
+        alert("Вы не угадали ни одного слова.");
+    }
 }
