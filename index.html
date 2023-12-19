@@ -31,7 +31,7 @@
         <h2 class="seasons_title">Времена года!</h2>
         <span class="seasons_instruction">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</span>
         <form action="#">
-            <button class="top_button" type="submit">Играть!</button>
+            <button onclick="alert(getSeason(prompt('Введите порядковый номер месяца')))" class="top_button" type="submit">Играть!</button>
         </form>
         </div>
         <img src="img/gamers.svg" alt="игроки" class="seasons_img">
@@ -42,7 +42,7 @@
             <h2 class="remember_title">Запомни слова</h2>
             <span class="remember_instruction">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</span>
             <form action="#">
-                <button class="remember_button" type="submit">Играть</button>
+                <button onclick="game2()" class="remember_button" type="submit">Играть</button>
             </form>
         </div>
     </div>
@@ -50,7 +50,7 @@
         <h2 class="footer_title">Игра в загадки</h2>
         <span class="footer_instruction">Компьютер загадывает загадку, вам необходимо её угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</span>
         <form action="#">
-            <button class="top_button" type="submit">Играть!</button>
+            <button class="top_button" type="submit" onclick="fruits()">Играть!</button>
         </form>
     </footer>
     <div class="bottom center">

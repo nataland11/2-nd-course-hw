@@ -11,3 +11,22 @@ function getSeason(month) {
         return "В году 12 месяцев";
     }
 }
+
+function game2() {
+    let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruits = fruits.sort(() => Math.random() - 0.5);
+    alert(fruits);
+
+    let firstGuess = prompt("Напишите первое слово");
+    let lastGuess = prompt("Напишите последнее слово");
+
+    if (firstGuess === fruits[0] && lastGuess === fruits[fruits.length - 1]) {
+        alert("Поздравляем! Вы угадали оба слова.");
+    }
+    else if (firstGuess === fruits[0] || lastGuess === fruits[fruits.length - 1]) {
+        alert("Вы угадали одно слово.");
+    }
+    else {
+        alert("Вы не угадали ни одного слова.");
+    }
+}
